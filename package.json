@@ -1,0 +1,31 @@
+{
+  "name": "codewithryan",
+  "version": "1.0.0",
+  "description": "Learn how to code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RYAN-Git-clone/webDev.git"
+  },
+  "author": "Ryan Maninga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RYAN-Git-clone/webDev/issues"
+  },
+  "homepage": "https://github.com/RYAN-Git-clone/webDev#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "joi": "^17.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0"
+  }
+}

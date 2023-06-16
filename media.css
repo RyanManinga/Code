@@ -1,0 +1,46 @@
+@media screen and (max-width:1200px){
+    #welcome{
+        font-size:auto;
+    }
+    h1{
+        font-size:20px;
+    }
+    #links{
+        font-size:14px;
+    }
+    #containers{
+        grid-template-columns:repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+    }
+    #contact-info{
+        font-size: 17px;
+    }
+    #register-welcome{
+        font-size:17px;
+    }
+}
+@media screen and (max-width:600px){
+    #containers{
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(6,auto);
+    }
+    #register-page{
+       grid-template-columns: repeat(1,auto);
+       grid-template-rows: repeat(2,auto);
+    }
+    #register-welcome{
+        font-size:14px;
+    }
+    #sub-form{
+        padding: 0.5em 2em 0.5em 2em;;
+    }
+    #contact-info{
+        font-size: 14px;
+    }
+    #register-form{
+        margin:0 auto;
+    }
+    #but-form{
+        padding:0.5em 2em 0.5em 2em;
+    }
+}
